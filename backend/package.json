@@ -1,10 +1,13 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "private": true,
-  "main": "app.py",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "python app.py",
-    "postinstall": "pip install -r requirements.txt"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
   }
 }
