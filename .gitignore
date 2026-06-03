@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Environment & secrets (never commit keys)
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# Supabase local CLI / dev cache (keep supabase/*.sql and config in repo)
+.supabase/
+
+# Frontend build & tooling
+dist/
+dist-ssr/
+.vite/
+*.tsbuildinfo
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors & IDEs
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+.idea/
+*.swp
+*.swo
+*~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Test / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.tox/
+.cache/
+
+# Misc
+*.pem
+*.key
+.cursor/
