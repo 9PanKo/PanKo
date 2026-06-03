@@ -1,0 +1,5 @@
+# Force Python build (avoid Node detecting package.json in this folder).
+providers = ["python"]
+
+[start]
+cmd = "gunicorn app:app --bind 0.0.0.0:$PORT"
