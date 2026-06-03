@@ -1,0 +1,3 @@
+# Vite 8 requires Node ^20.19.0 or >=22.12.0
+[variables]
+NIXPACKS_NODE_VERSION = "22"
